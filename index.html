@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            h3{
+                color: violet;
+            }
+            #estiloID{
+                color: black;
+                text-align: center;
+            }
+            .estiloClasse{
+                text-align: center;
+            }
+        </style>
+        <title>Filmes</title>
     </head>
     <body>
-        <h1>Meus Filmes</h1>
+        <h1 style="color: red; text-align: center;">Meus Filmes</h1>
         <ol type="I">
             <li><a href="filme1.html">FILME 01</a></li>
             <li><a href="filme2.html">FILME 02</a></li>
@@ -34,9 +47,12 @@
             </tbody>
         </table>
         <br><br>
-        <p><h3>Uso do Iframe</h3></p>
+        <p><h3 id="estiloID">Uso do Iframe</h3></p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/MM8RufZr5lw?si=24zHoC1NmWD3k6h9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             Navegador nao suporta
         </iframe>
+        <br><br>
+        <p><h3 class="estiloClasse">Uso de imagem</h3></p>
+        <img width="300" src="assets/kitty.jpg">
     </body>
 </html>
